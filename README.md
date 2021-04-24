@@ -1,2 +1,3 @@
-# Gnome 40 extension
+## Simple gnome 40 extension
 
+Remove shadow of workspace background, may support more features soon.
