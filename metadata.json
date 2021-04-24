@@ -1,0 +1,9 @@
+{
+  "name": "Gnome 40 Plat Workspace",
+  "description": "Remove shadow for workspace preview",
+  "uuid": "gnome-plat-workspace@stonegate.me",
+  "settings-schema": "org.gnome.shell.extensions.gnome-plat-workspace",
+  "shell-version": [
+    "40"
+  ]
+}
