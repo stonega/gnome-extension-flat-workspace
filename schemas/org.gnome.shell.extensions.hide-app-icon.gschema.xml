@@ -1,0 +1,18 @@
+<schemalist gettext-domain="gnome-shell-extentions">
+    <schema id="org.gnome.shell.extentions.hide-app-icon" path="/org/gnome/shell/extentions/hide-app-icon/">
+        <key name="colorfy-icon" type="b">
+            <default>true</default>
+            <summary>Change icon back to colorful</summary>
+            <description>
+            If true, app icon on topbar will be back to colorful.
+        </description>
+        </key>
+        <key name="hide-icon" type="b">
+            <default>false</default>
+            <summary>Hide icon</summary>
+            <description>
+            If true, app icon will be hidden from topbar.
+        </description>
+        </key>
+    </schema>
+</schemalist>

@@ -1,5 +1,13 @@
-function enable() {}
+const Main = imports.ui.main
+let panel = Main.panel
+let indicator = panel.statusArea['appMenu']
+
+function enable() {
+    indicator._iconBox.hide()
+}
 
 function init() {}
 
-function disable() {}
+function disable() {
+    indicator._iconBox.show()
+}
